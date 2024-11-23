@@ -9,6 +9,7 @@ Using state and props in a functional component design, this React practical ill
 ## files
 
 **1.App.js :** includes the parent component, which controls state and provides the child component with a callback function.
+
 **2.ChildComp.js :** represents the kid component, which sends data back via the callback from the parent.
 
 ## Key Concepts Covered
