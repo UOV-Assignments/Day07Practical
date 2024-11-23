@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <h1>Hello I'm Parent</h1>
-      <ChildComp />
+      <ChildComp setFunc={receiveName} />
+      <p>Parent : My Child said{childName}</p>
     </div>
   );
 }
