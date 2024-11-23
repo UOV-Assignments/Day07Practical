@@ -4,6 +4,9 @@ import ChildComp from './ChildComp';
 
 function App() {
   const [childName,setChildName] = useState("Default");
+  const receiveName = (name=>{
+    setChildName(name);
+  })
   return (
     <div className="App">
       <h1>Hello I'm Parent</h1>
