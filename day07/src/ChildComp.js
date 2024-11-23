@@ -1,7 +1,8 @@
-export default function ChildComp(){
+export default function ChildComp(props){
     return(
         <>
-        Child Comp
+        <h3>Hello I'm Child</h3>
+        
         </>
     )
 }
